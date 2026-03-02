@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class SO_NPC : ScriptableObject
 {
+    [System.Serializable] dialogueInfo;
+        public string dialogue;
     // Start is called before the first frame update
     void Start()
     {
