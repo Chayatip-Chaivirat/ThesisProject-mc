@@ -45,4 +45,25 @@ public class DialogueManager : MonoBehaviour
 
         isTyping = false;
     }
+
+    public void QueueDialogue(SO_Dialogue dialogue)
+    {
+        if (isInDialogue)
+            return;
+
+        isInDialogue = true;
+        dialogueBox.SetActive(true);
+
+        dialogueQueue.Clear();
+
+        foreach (SO_Dialogue.Info line in dialogue.dialogueInfo)
+        {
+            dialogueQueue.Enqueue(line);
+        }
+
+        GameObject.FindWithTag("Player")
+            .GetComponent<PlayerInput>().enabled = false;
+
+        DequeueDialogue();
+    }
 }
