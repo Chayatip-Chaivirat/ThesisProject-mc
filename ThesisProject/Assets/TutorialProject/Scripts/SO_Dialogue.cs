@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu(fileName = "New_dialogue", menuName = "Dialogue")]
 
-public class SO_NPC : ScriptableObject
+public class SO_Dialogue : ScriptableObject
 {
     public class Info
     {
