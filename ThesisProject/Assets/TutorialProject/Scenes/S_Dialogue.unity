@@ -5590,12 +5590,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 375255980}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f41757ccc41733b45888a000f70a0135, type: 3}
+  m_Script: {fileID: 11500000, guid: 577d46644c1b2714e8132b0ee053b7e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueBox: {fileID: 375255980}
+  textDelay: 0.1
   dialogueText: {fileID: 1645454345}
-  textDelay: 0.03
+  dialogueBox: {fileID: 375255980}
+--- !u!114 &375255983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375255980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 8cf73670aa10c214199f8db8cb72e748, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: UIActionMap
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1001 &379735414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25454,11 +25484,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6430958923224685798, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 300
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6430958923224685798, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6430958923224685798, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       propertyPath: m_LocalScale.x
@@ -25482,7 +25512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6430958923224685798, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.307
+      value: -1.509
       objectReference: {fileID: 0}
     - target: {fileID: 6430958923224685798, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -25506,7 +25536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6430958923224685798, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.6308594
+      value: 0.46398926
       objectReference: {fileID: 0}
     - target: {fileID: 6430958923224685798, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -25527,6 +25557,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1094948514772381858, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 375255982}
+    - targetCorrespondingSourceObject: {fileID: 1094948514772381858, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 375255983}
   m_SourcePrefab: {fileID: 100100000, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
 --- !u!1001 &1881457781
 PrefabInstance:
