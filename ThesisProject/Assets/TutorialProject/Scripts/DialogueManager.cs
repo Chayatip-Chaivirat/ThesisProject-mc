@@ -46,6 +46,7 @@ public class DialogueManager : MonoBehaviour
         isTyping = false;
     }
 
+    // Disble player input and start dialogue
     public void QueueDialogue(SO_Dialogue dialogue)
     {
         if (isInDialogue)
@@ -65,5 +66,35 @@ public class DialogueManager : MonoBehaviour
             .GetComponent<PlayerInput>().enabled = false;
 
         DequeueDialogue();
+    }
+
+    // if no more dialogue, end dialogue 
+    public void DequeueDialogue()
+    {
+        if (isTyping)
+        {
+            StopAllCoroutines();
+            dialogueText.text = completedText;
+            isTyping = false;
+            return;
+        }
+
+        if (dialogueQueue.Count == 0)
+        {
+            EndDialogue();
+            return;
+        }
+
+        SO_Dialogue.Info info = dialogueQueue.Dequeue();
+        StartCoroutine(TypeText(info));
+    }
+
+    private void EndDialogue()
+    {
+        isInDialogue = false;
+        dialogueBox.SetActive(false);
+
+        GameObject.FindWithTag("Player")
+            .GetComponent<PlayerInput>().enabled = true;
     }
 }
