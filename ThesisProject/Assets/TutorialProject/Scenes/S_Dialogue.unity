@@ -7428,7 +7428,7 @@ PrefabInstance:
       addedObject: {fileID: 561414550}
     - targetCorrespondingSourceObject: {fileID: 7647134206250791342, guid: cc91c8ba8b9a34f4d99e70d721f60b64, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 561414553}
+      addedObject: {fileID: 561414551}
   m_SourcePrefab: {fileID: 100100000, guid: cc91c8ba8b9a34f4d99e70d721f60b64, type: 3}
 --- !u!1 &561414549 stripped
 GameObject:
@@ -7458,7 +7458,7 @@ CapsuleCollider:
   m_Height: 2.1371875
   m_Direction: 1
   m_Center: {x: 0, y: 0.56859374, z: 0}
---- !u!114 &561414553
+--- !u!114 &561414551
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7467,9 +7467,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 561414549}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03de32fc2ee793f408b1b17e219d3ae1, type: 3}
+  m_Script: {fileID: 11500000, guid: 79775ced65fefb94c892b75052cf6086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogue: {fileID: 11400000, guid: 979cd9b65aa628b418820d3ba80534af, type: 2}
 --- !u!1001 &568687998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25481,7 +25482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6430958923224685798, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.3935001
+      value: -1.307
       objectReference: {fileID: 0}
     - target: {fileID: 6430958923224685798, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -25501,11 +25502,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6430958923224685798, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -957.5317
+      value: -957.593
       objectReference: {fileID: 0}
     - target: {fileID: 6430958923224685798, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.68847656
+      value: 0.63098145
       objectReference: {fileID: 0}
     - target: {fileID: 6430958923224685798, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
