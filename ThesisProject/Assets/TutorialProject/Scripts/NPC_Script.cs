@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NPC : MonoBehaviour, IInteractable
+public class NPC_Script : MonoBehaviour, IInteractable
 {
     // Start is called before the first frame update
     void Start()
