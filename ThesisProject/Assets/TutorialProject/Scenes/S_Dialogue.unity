@@ -7454,7 +7454,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.75
   m_Height: 2.1371875
   m_Direction: 1
   m_Center: {x: 0, y: 0.56859374, z: 0}
@@ -25506,7 +25506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6430958923224685798, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.63098145
+      value: 0.6308594
       objectReference: {fileID: 0}
     - target: {fileID: 6430958923224685798, guid: dd1672d394d8f8944910fc9be90ab7b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
