@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class SO_Dialogue : ScriptableObject
 {
+    [System.Serializable]
     public class Info
     {
         [TextArea(4, 8)]
