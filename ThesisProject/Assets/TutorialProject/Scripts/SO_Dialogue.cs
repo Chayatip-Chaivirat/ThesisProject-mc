@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class SO_NPC : ScriptableObject
 {
-    //[System.Serializable] dialogueInfo;
-    public string dialogue;
     public class Info
     {
         [TextArea(4, 8)]
