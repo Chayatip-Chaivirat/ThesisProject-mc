@@ -97,4 +97,12 @@ public class DialogueManager : MonoBehaviour
         GameObject.FindWithTag("Player")
             .GetComponent<PlayerInput>().enabled = true;
     }
+
+    private void OnInteract()
+    {
+        if (!isInDialogue)
+            return;
+
+        DequeueDialogue();
+    }
 }

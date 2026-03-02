@@ -2,15 +2,10 @@ using UnityEngine;
 
 public class NPC_Script : MonoBehaviour, IInteractable
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
+    [SerializeField] private SO_Dialogue dialogue;
 
-    // Update is called once per frame
-    void Update()
+    public void Interact()
     {
-        
+        DialogueManager.Instance.QueueDialogue(dialogue);
     }
 }
