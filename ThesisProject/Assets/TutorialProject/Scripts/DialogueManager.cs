@@ -29,4 +29,20 @@ public class DialogueManager : MonoBehaviour
 
         dialogueQueue = new Queue<SO_Dialogue.Info>();
     }
+
+    //Typing Coroutine
+    private IEnumerator TypeText(SO_Dialogue.Info info)
+    {
+        isTyping = true;
+        dialogueText.text = "";
+        completedText = info.dialogue;
+
+        foreach (char letter in info.dialogue)
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(textDelay);
+        }
+
+        isTyping = false;
+    }
 }
