@@ -13,15 +13,4 @@ public class SO_Dialogue : ScriptableObject
     }
 
     public Info[] dialogueInfo;
-
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
