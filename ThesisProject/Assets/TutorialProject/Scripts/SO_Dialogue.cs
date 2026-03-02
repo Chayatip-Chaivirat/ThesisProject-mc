@@ -7,7 +7,14 @@ public class SO_NPC : ScriptableObject
 {
     //[System.Serializable] dialogueInfo;
     public string dialogue;
-    // Start is called before the first frame update
+    public class Info
+    {
+        [TextArea(4, 8)]
+        public string dialogue;
+    }
+
+    public Info[] dialogueInfo;
+
     void Start()
     {
         
