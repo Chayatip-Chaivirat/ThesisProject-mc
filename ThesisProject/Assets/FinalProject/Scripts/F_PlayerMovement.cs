@@ -39,10 +39,12 @@ public class F_PlayerMovement : MonoBehaviour
     {
         // Getting movement input values (x and y axes)
         movementInput = new Vector3(input.Get<Vector2>().x, 0, input.Get<Vector2>().y);
+        dustStep.Play();
     }
     private void OnMovementStop(InputValue input)
     {
         movementVector = Vector3.zero;
+        dustStep.Stop();
     }
     
 }
