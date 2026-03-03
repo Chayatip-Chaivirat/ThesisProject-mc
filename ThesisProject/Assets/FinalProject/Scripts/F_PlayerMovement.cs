@@ -11,6 +11,7 @@ public class F_PlayerMovement : MonoBehaviour
     private Vector3 movementInput; // Stores movement input received from the player
     public Vector3 movementVector; // Stores the resulting movement vector
     [SerializeField] private float movementSpeed; // Movement speed of the character
+    [SerializeField] ParticleSystem dustStep;
 
 
     void Start()
