@@ -11496,6 +11496,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 729867273198166643, guid: 19029c1e7c9031d4bb5273374fc0dc4e, type: 3}
   m_PrefabInstance: {fileID: 799429201}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &804704112 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022912001742125707, guid: 5ed459fa9af3cc54a8803d749f445718, type: 3}
+  m_PrefabInstance: {fileID: 2606311158365134057}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &807637010
 GameObject:
   m_ObjectHideFlags: 0
@@ -12693,7 +12698,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 40
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -21355,12 +21360,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276081093}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.61416245, y: 0.000000029802322, z: -0.000000022351742, w: 0.7891797}
-  m_LocalPosition: {x: -0.000000065096145, y: 0.0000000085074205, z: 0.00000006069367}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalRotation: {x: -0.3973632, y: 0.7609421, z: 0.3810927, w: 0.34327528}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0.12}
+  m_LocalScale: {x: 0.112359576, y: 0.11235958, z: 0.112359576}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2606311158365134059}
+  m_Father: {fileID: 804704112}
   m_LocalEulerAnglesHint: {x: -75.782, y: 0, z: 0}
 --- !u!199 &1276081095
 ParticleSystemRenderer:
@@ -50053,7 +50058,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 1824963517751679382, guid: 5ed459fa9af3cc54a8803d749f445718, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 6022912001742125707, guid: 5ed459fa9af3cc54a8803d749f445718, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1276081094}
     m_AddedComponents: []
@@ -50061,11 +50066,6 @@ PrefabInstance:
 --- !u!4 &2606311158365134058 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4356454202060886558, guid: 5ed459fa9af3cc54a8803d749f445718, type: 3}
-  m_PrefabInstance: {fileID: 2606311158365134057}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2606311158365134059 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1824963517751679382, guid: 5ed459fa9af3cc54a8803d749f445718, type: 3}
   m_PrefabInstance: {fileID: 2606311158365134057}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2663320246437673072
